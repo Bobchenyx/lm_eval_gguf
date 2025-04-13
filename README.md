@@ -6,9 +6,9 @@ The [llama_server.py](llama_server.py) is a patch code for evaluating local gguf
 git clone git@github.com:EleutherAI/lm-evaluation-harness.git
 ```
 
-Copy [llama_server.py](llama_server.py) to lm-evaluation-harness/lm_eval/models/
+- Copy [llama_server.py](llama_server.py) to `lm-evaluation-harness/lm_eval/models/`
 
-Add llama_server in lm-evaluation-harness/lm_eval/models/__init__.py
+- Add llama_server in `lm-evaluation-harness/lm_eval/models/__init__.py`
 
 ```bash
 cd lm-evaluation-harness
