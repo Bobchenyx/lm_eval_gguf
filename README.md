@@ -26,5 +26,5 @@ Use lm-eval to evaluate the model in another terminal.
 ```bash
 export no_proxy="localhost,127.0.0.1"
 export NO_PROXY="localhost,127.0.0.1"
-HF_DATASETS_TRUST_REMOTE_CODE=1 nohup lm-eval --model llama-server --tasks arc_challenge,arc_easy,boolq,hellaswag,mmlu,openbookqa,piqa,rte,winogrande --model_args base_url=http://127.0.0.1:8080
+HF_DATASETS_TRUST_REMOTE_CODE=1 lm-eval --model llama-server --tasks arc_challenge,arc_easy,boolq,hellaswag,mmlu,openbookqa,piqa,rte,winogrande --model_args base_url=http://127.0.0.1:8080
 ```
