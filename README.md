@@ -16,7 +16,7 @@ Start a local server by [llama-server](https://github.com/ggml-org/llama.cpp/tre
 ./llama.cpp/llama-server -m /root/dataDisk/tflsxyy/DeepSeek-V3-0324-MoE-Pruner-E160-IQ1_S/DeepSeek-V3-0324-MoE-Pruner-E160-IQ1_S-00001-of-00018.gguf -ngl 62
 ```
 
-Use lm-eval to evaluate the model in another terminal. Since [llama_server.py](llama_server.py)'s response is different from [llama-cpp-python](https://github.com/abetlen/llama-cpp-python), only MMLU is supported.
+Use lm-eval to evaluate the model in another terminal. Since [llama-server](https://github.com/ggml-org/llama.cpp/tree/master/examples/server)'s response is different from [llama-cpp-python](https://github.com/abetlen/llama-cpp-python), only MMLU is supported.
 
 ```bash
 export no_proxy="localhost,127.0.0.1"
