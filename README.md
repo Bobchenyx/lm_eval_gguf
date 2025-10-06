@@ -57,3 +57,20 @@ Use lm-eval to evaluate the model in another terminal. Since [llama-server](http
 lm-eval --model llama-server --tasks mmlu --model_args base_url=http://127.0.0.1:8080
 # --num_fewshot 5     (few shot option)
 ```
+
+### Citation
+
+If this work is helpful, please kindly cite as:
+
+```bibtex
+@article{chen2025collaborative,
+  title={Collaborative Compression for Large-Scale MoE Deployment on Edge},
+  author={Chen, Yixiao and Xie, Yanyue and Yang, Ruining and Jiang, Wei and Wang, Wei and He, Yong and Chen, Yue and Zhao, Pu and Wang, Yanzhi},
+  journal={arXiv preprint arXiv:2509.25689},
+  year={2025}
+}
+```
+
+### Acknowledgement
+
+This repo benefits from [tflsxyy/lm_eval_gguf](https://github.com/tflsxyy/lm_eval_gguf) and [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness), Thanks for their wonderful works.
