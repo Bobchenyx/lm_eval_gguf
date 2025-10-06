@@ -3,7 +3,7 @@ We here provide 2 options for gguf benchmarking.
 
 ---
 
-### llama.cpp native perplexity tools.
+### 1. llama.cpp native perplexity tools.
 clone and build any llama.cpp version which supports your gguf models.
 ```
 git clone https://github.com/ggml-org/llama.cpp.git
@@ -27,7 +27,7 @@ build/bin/llama-perplexity -m "<Path-To-GGUF-Model>" -f <Pah-To-Benchmark-file> 
 ```
 ---
 
-### gguf patch code for lm-evaluation-harness
+### 2. gguf patch code for lm-evaluation-harness
 
 The [llama_server.py](llama_server.py) is a patch code for evaluating local gguf by [llama-server](https://github.com/ggml-org/llama.cpp/tree/master/examples/server) that is much faster than [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) provided in lm-harness.
 
