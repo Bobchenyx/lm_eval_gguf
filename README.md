@@ -1,6 +1,7 @@
 ## GGUF Benchmarking
-
 We here provide 2 options for gguf benchmarking.
+
+---
 
 ### llama.cpp native perplexity tools.
 clone and build any llama.cpp version which supports your gguf models.
@@ -24,6 +25,7 @@ build/bin/llama-perplexity -m "<Path-To-GGUF-Model>" -f <Pah-To-Benchmark-file> 
 # -f winogrande-debiased-eval.csv --winogrande [--winogrande-tasks N] [other params]
 # -f hellaswag_val_full.txt --hellaswag [--hellaswag-tasks N] [other params]
 ```
+---
 
 ### gguf patch code for lm-evaluation-harness
 
